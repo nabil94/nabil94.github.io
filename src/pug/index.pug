@@ -47,7 +47,7 @@ html(lang='en')
                     li.nav-item
                         a.nav-link.js-scroll-trigger(href='#projects') Academic Projects
                     li.nav-item
-                        a.nav-link.js-scroll-trigger(href='#resume') Resume
+                        a.nav-link.js-scroll-trigger(href='../assets/nabil.pdf') Resume
                     li.nav-item
                         a.nav-link.js-scroll-trigger(href='#contact') Contact
 
@@ -62,7 +62,15 @@ html(lang='en')
                         | Raian 
                         span.text-secondary  Latif Nabil
                     p.lead.mb-5
-                        | I am currently working as a software engineer at OpenRefactory, Inc., a Silicon Valley-based deep-tech software company that focuses on automatically fixing security, reliability, and compliance bugs. 
+                        | I am currently working as a software engineer at 
+                        a(href="https://openrefactory.com") OpenRefactory, Inc.
+                        |, a Silicon Valley-based deep-tech software company that focuses on automatically fixing security, reliability, and compliance bugs. 
+                    p.lead.mb-5
+                        | My research interest focuses on Software Engineering, Software Security and Programming Language
+                    p.lead.mb-5
+                        | I received my Bachelor of Science degree in Computer Science and Engineering from 
+                        a(href="https://www.buet.ac.bd/web/#/") Bangladesh University of Engineering and Technology
+                        |in 2021
                     .social-icons
                         a.social-icon(href='mailto:raianlatif1151041@gmail.com')
                             i.fas.fa-envelope
@@ -72,8 +80,6 @@ html(lang='en')
                             i.fab.fa-github
                         a.social-icon(href='https://gitlab.com/RaianLatifNabil')
                             i.fab.fa-gitlab
-                        a.social-icon(href='#!')
-                            i.fab.fa-facebook-f
 
             hr.m-0
 
@@ -110,8 +116,29 @@ html(lang='en')
                         .flex-grow-1
                             h3.mb-0 Software Engineer
                             .subheading.mb-3 Openrefactory, Inc
+                            div
                             p
-                                | Worked on Intelligent Code Repair (iCR), which is a static analysis-based bug detection engine that (1) detects bugs that other tools miss, (2) does that with dramatically low false warnings, and (3) is the first and only tool in this space that can also synthesize fixes automatically for over half of all the bugs detected. Worked on iCR for Java and Python
+                                | Worked on Intelligent Code Repair (iCR), which is a static analysis-based bug detection engine that (1) detects bugs that other tools miss, (2) does that with dramatically low false warnings, and (3) is the first and only tool in this space that can also synthesize fixes automatically for over half of all the bugs detected. Worked on iCR for Java and Python.
+                                | Key responsibilities include - 
+                            ul
+                                li writing fixer for both Java and Python
+                                .mb-3
+                                li packaging iCR products on different platforms
+                                .mb-3
+                                li investigating and integrating new technologies, platforms, and SDKs
+                                .mb-3
+
+                            p   
+                                | Some Major Contribution: 
+                            ul
+                                li Contributed to integration of iCR with different version controlling clouds and enterprise
+                                .mb-3
+                                li Design and implement a systems to use iCR as a part of different CI/CD pipelines
+                                .mb-3
+                                li Contributed to licensing schemes for products on different platforms
+                                .mb-3
+                                li Contributed to creating a Kubernetes-based deployment of iCR.
+                                .mb-3
                         .flex-shrink-0
                             span.text-primary July 2021 - Present
             hr.m-0
@@ -160,14 +187,19 @@ html(lang='en')
 
                     .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
                     .flex-grow-1
-                    h3.mb-0 Gardening Watering System
+                    h3.mb-0 Automated Water Irrigation System
                     .social-icons
                     a.social-icon(href='https://www.youtube.com/watch?v=mYKr8xIS0Zs')
                         i.fab.fa-youtube
-                    | Tools : Microcontroller, Sonar sensor, Moisture 
-                    sensor
+                    | Tools : Microcontroller, Sonar sensor, Moisture Sensor
                     p   
                     |   A watering system that can be applied in the garden
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                    .flex-grow-1
+                    h3.mb-0 Sign Language Alphabet Recognition
+                    | Tools : Python, Keras, Tensorflow, Android
+                    p   
+                    |   Using deep learning model, sign language alphabet is recognised. ASL Dataset was used here.
 
 
             // Skills
