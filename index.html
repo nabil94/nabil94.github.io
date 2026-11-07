@@ -36,6 +36,8 @@
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#research">Research</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Honours &amp; Awards</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#activities">Activities</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="https://drive.google.com/file/d/1r_IlfFn36gl3S7p2aXaVZTCqp3PQggyX/view?usp=sharing"
                         target="_blank">Resume</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
@@ -126,29 +128,56 @@
                 <h2 class="mb-5">Experience</h2>
                 <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div class="flex-grow-1">
-                        <h3 class="mb-0">Software Engineer</h3>
-                        <div class="subheading mb-3">Openrefactory, Inc</div>
-                        <div></div>
-                        <p>Worked on Intelligent Code Repair (<a href="https://www.openrefactory.com/solutions/">iCR</a>), which is a static analysis-based bug detection
-                            engine that (1) detects bugs that other tools miss, (2) does that with dramatically low
-                            false warnings, and (3) is the first and only tool in this space that can also synthesize
-                            fixes automatically for over half of all the bugs detected. Worked on iCR for Java and
-                            Python. Key responsibilities include -</p>
+                        <h3 class="mb-0">Graduate Student Researcher</h3>
+                        <div class="subheading mb-3">University of California, Davis &middot; Davis, CA</div>
                         <ul>
-                            <li>contributing to the bug detection algorithm in various languages.</li>
-                            <li>packaging iCR products on different platforms</li>
-                            <li>investigating and integrating new technologies, platforms, and SDKs</li>
-                        </ul>
-                        <p>Some Major Contribution:</p>
-                        <ul>
-                            <li>Bug detection algorithm for security vulnerabilities for Java and Python programs</li>
-                            <li>Design and implementation of different features of iCR Navigator and iCR Reviewer</li>
-                            <li>Support for CI/CD integration with GitHub cloud, GitHub enterprise, GitLab cloud, GitLab enterprise, Bitbucket cloud and Bitbucket server.</li>
-                            <li>Support for integrating license validation mechanism with iCR</li>
-                            <li>Contributed to creating a Kubernetes-based deployment of iCR</li>
+                            <li>Developed <b>CI-Bench</b>, a framework for evaluating LLM-based automated program repair tools on real-world Continuous Integration (CI) failures.
+                                <ul>
+                                    <li>Integrated three LLM-based repair agents (SWE-Agent, Agentless, and AutoCodeRover) to diagnose CI failures and generate candidate patches.</li>
+                                    <li>Adapted BugSwarm, a dataset of reproducible fail-pass CI job pairs, to support automated patch generation and validation.</li>
+                                    <li>Evaluated repair effectiveness on 100 real-world CI failures, achieving up to 35% correct patches.</li>
+                                </ul>
+                            </li>
+                            <li>Developed <b>LLM4Build</b>, an LLM-driven framework for reproducing historical GitHub Actions CI builds across multiple programming languages.</li>
+                            <li>Developing <b>NumBugBench</b>, a benchmark and automated reproduction framework for real-world numerical bugs in scientific computing software.</li>
+                            <li>Contributed to the development and maintenance of <b>BugSwarm</b>, an infrastructure for mining and reproducing real-world CI failures.</li>
                         </ul>
                     </div>
-                    <div class="flex-shrink-0"><span class="text-primary">July 2021 - Present</span></div>
+                    <div class="flex-shrink-0"><span class="text-primary">September 2023 - Present</span></div>
+                </div>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">Graduate Teaching Assistant</h3>
+                        <div class="subheading mb-3">University of California, Davis &middot; Davis, CA</div>
+                        <ul>
+                            <li><b>ECS 122B &ndash; Algorithm Design &amp; Analysis:</b> Led discussion and lab sessions, conducted office hours, and graded assignments.</li>
+                        </ul>
+                    </div>
+                    <div class="flex-shrink-0"><span class="text-primary">January 2026 - March 2026</span></div>
+                </div>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">Software Engineer</h3>
+                        <div class="subheading mb-3"><a href="https://openrefactory.com">OpenRefactory, Inc.</a> &middot; Santa Clara, CA</div>
+                        <ul>
+                            <li>Contributed to Intelligent Code Repair (<a href="https://www.openrefactory.com/solutions/">iCR</a>), a static analysis-based platform for automated bug detection and repair.</li>
+                            <li>Developed static analysis algorithms to detect security vulnerabilities in Java, Python and Go applications.</li>
+                            <li>Enhanced CI/CD integrations of iCR with GitHub, GitLab, and Bitbucket, supporting both cloud and enterprise environments.</li>
+                            <li>Contributed to cloud-native deployment infrastructure using AWS, Azure, and Kubernetes to support scalable operation.</li>
+                        </ul>
+                    </div>
+                    <div class="flex-shrink-0"><span class="text-primary">July 2021 - July 2023</span></div>
+                </div>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">Undergraduate Researcher</h3>
+                        <div class="subheading mb-3">Bangladesh University of Engineering and Technology &middot; Dhaka, Bangladesh</div>
+                        <ul>
+                            <li>Developed <b>CD-MAWS</b>, an alignment-free phylogenetic estimation method using cosine distance on Minimal Absent Word (MAW) sets.</li>
+                            <li>Implemented and evaluated multiple alignment-based methods for phylogenetic analysis of DNA sequences.</li>
+                        </ul>
+                    </div>
+                    <div class="flex-shrink-0"><span class="text-primary">May 2019 - February 2021</span></div>
                 </div>
             </div>
         </section>
@@ -157,63 +186,31 @@
         <section class="resume-section" id="research">
             <div class="resume-section-content">
                 <h2 class="mb-5">Research</h2>
-                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                    <div class="flex-grow-1">
-                        <h3 class="mb-0">CD-MAWS: An Alignment-free Phylogeny Estimation Method Using Cosine Distance on
-                            Minimal Absent Word Sets</h3>
-                        <div class="subheading mb-3">Co-Authors: Naser Anjum, Rakibul Islam Rafi, Md. Shamsuzzoha
-                            Bayzid, and M Saifur Rahman</div>
-                        <div>
-                            Multiple sequence alignment has been the traditional and well established approach of
-                            sequence analysis and comparison, though it is time and memory consuming. As the scale of
-                            sequencing data is increasing day by day, the importance of faster yet accurate
-                            alignment-free methods is on the rise. Several alignment-free sequence analysis methods have
-                            been established in the literature in recent years, which extract numerical features from
-                            genomic data to analyze sequences and also to estimate phylogenetic relationship among genes
-                            and species. Minimal Absent Word (MAW) is an effective concept for representing
-                            characteristics of a sequence in an alignment-free manner. In this study, we present
-                            CD-MAWS, a distance measure based on cosine of the angle between composition vectors
-                            constructed using minimal absent words, for sequence analysis in a computationally
-                            inexpensive manner. We have benchmarked CD-MAWS using several AFProject datasets, such as
-                            Fish mtDNA,
-                            E.coli, Plants, Shigella and Yersinia datasets, and found it to perform quite well. Applied
-                            on several other biological datasets such as mammal mtDNA, bacterial genomes and viral
-                            genomes, CD-MAWS resolved phylogenetic relationships similar to or better than
-                            state-of-the-art alignment-free methods such as Mash, Skmer, Co-phylog and kSNP3.
-                        </div>
-                        <div class="subheading mb-3">
-                            Status: <b>Accepted for publication</b> in the IEEE/ACM Transactions on Computational
-                            Biology and Bioinformatics. Available at
-                            <a href="https://ieeexplore.ieee.org/document/9656638" target="_blank">this link.</a>
-                        </div>
-                    </div>
+                <p class="lead mb-5"><b>Research Interests:</b> Software Engineering, Programming Languages, AI for Software Engineering (AI4SE)</p>
+                <h3 class="mb-4 text-primary">Publications</h3>
+                <div class="mb-5">
+                    <h3 class="mb-0">NumBugBench: Mining and Reproducing Real-World Numerical Bugs</h3>
+                    <div><b>Raian Latif Nabil</b>, Cindy Rubio-Gonz&aacute;lez</div>
+                    <div class="subheading mb-3">Under Review</div>
                 </div>
-                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                    <div class="flex-grow-1">
-                        <h3 class="mb-0">Different Approaches to Sequence Comparison Methods for Phylogenetic Tree
-                            Estimation</h3>
-                        <div class="subheading mb-3">Co-Authors: Naser Anjum, Rakibul Islam Rafi and M Saifur Rahman
-                        </div>
-                        <div>
-                            Phylogenetics is a study that concerns with the inference of evolutionary history and
-                            relationship between the organisms. Over the years, phylogenetics has been an important
-                            research topic in both Biology and Computer Science. Its application is wide ranging as it
-                            is used in evolutionary pattern finding, species classification, forensics, medicine etc.
-                            The phylogenetic relations are inferred by analyzing similarities and dissimilarities of
-                            heritable traits (DNA sequences, morphology etc.) between different species. DNA Sequence
-                            comparison is an widely used method of phylogeny reconstruction as we can leverage the power
-                            of machine computation by introducing different sequence comparison algorithms of different
-                            complexity. These sequence comparison methods are two-fold - Alignment-based methods and
-                            alignment-free methods. Consequently, our research focus has been two-fold as well.
-                            Additionally, there is a case of choosing between applying the methods
-                            either on the whole genome sequence or on some meaningful subsets of the whole sequence. It
-                            normally depends on the complexity of the chosen method and the computational scope of the
-                            working machine.
-                        </div>
-                    </div>
+                <div class="mb-5">
+                    <h3 class="mb-0">LLM4Build: Leveraging LLMs to Reproduce GitHub Actions</h3>
+                    <div><b>Raian Latif Nabil</b>, Hao-Nan Zhu, Cindy Rubio-Gonz&aacute;lez</div>
+                    <div class="subheading mb-3">Under Review</div>
+                </div>
+                <div class="mb-5">
+                    <h3 class="mb-0">CI-Bench: Evaluating LLM-based Program Repair Tools on CI Failure Data</h3>
+                    <div><b>Raian Latif Nabil</b>, Hao-Nan Zhu, Cindy Rubio-Gonz&aacute;lez</div>
+                    <div class="subheading mb-3">ICSE 2026, Demonstrations Track &middot; <a href="https://dl.acm.org/doi/full/10.1145/3774748.3787606" target="_blank">link</a></div>
+                </div>
+                <div class="mb-5">
+                    <h3 class="mb-0">CD-MAWS: An Alignment-free Phylogeny Estimation Method Using Cosine Distance on Minimal Absent Word Sets</h3>
+                    <div>Naser Anjum, <b>Raian Latif Nabil</b>, Rakibul Islam Rafi, Shamsuzzaman Bayzid, M. Saifur Rahman</div>
+                    <div class="subheading mb-3">IEEE/ACM Transactions on Computational Biology and Bioinformatics, 2023 &middot; <a href="https://ieeexplore.ieee.org/document/9656638" target="_blank">link</a></div>
                 </div>
             </div>
         </section>
+        <hr class="m-0" />
         <!-- Skills-->
         <section class="resume-section" id="skills">
             <div class="resume-section-content">
@@ -255,7 +252,42 @@
                 <div class="mb-3"></div>
             </div>
         </section>
-        <!-- Awards-->
+        <hr class="m-0" />
+        <!-- Honours & Awards-->
+        <section class="resume-section" id="awards">
+            <div class="resume-section-content">
+                <h2 class="mb-5">Honours &amp; Awards</h2>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-4">
+                    <div class="flex-grow-1"><b>Graduate Fellowship</b>, University of California, Davis</div>
+                    <div class="flex-shrink-0"><span class="text-primary">Fall 2023, Fall 2026</span></div>
+                </div>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-4">
+                    <div class="flex-grow-1"><b>Travel Grant</b>, ICSE 2026, Rio de Janeiro, Brazil</div>
+                    <div class="flex-shrink-0"><span class="text-primary">2026</span></div>
+                </div>
+            </div>
+        </section>
+        <hr class="m-0" />
+        <!-- Activities-->
+        <section class="resume-section" id="activities">
+            <div class="resume-section-content">
+                <h2 class="mb-5">Activities</h2>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-4">
+                    <div class="flex-grow-1"><b>Student Volunteer</b>, SPLASH/ISSTA 2026, Oakland, CA</div>
+                    <div class="flex-shrink-0"><span class="text-primary">2026</span></div>
+                </div>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-4">
+                    <div class="flex-grow-1"><b>Conference Co-Reviewer:</b> ICSE 2024, PLDI 2024, ICSE 2025</div>
+                    <div class="flex-shrink-0"><span class="text-primary"></span></div>
+                </div>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-4">
+                    <div class="flex-grow-1"><b>Conference Attendance:</b> FSE 2023, ASE 2024, ICSE 2026, SPLASH/ISSTA 2026</div>
+                    <div class="flex-shrink-0"><span class="text-primary"></span></div>
+                </div>
+            </div>
+        </section>
+        <hr class="m-0" />
+        <!-- Contact-->
         <section class="resume-section" id="contact">
             <div class="resume-section-content">
                 <h2 class="mb-5">
